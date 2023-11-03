@@ -1,1 +1,1 @@
-# action-check-supabase-migration-order
+# Action check supabase migration order

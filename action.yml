@@ -1,0 +1,16 @@
+name: "CheckMigrationsOrder"
+description: "This will check the conflicts in supabase migrations if merge pull_request"
+author: "CanhNV"
+branding:
+  icon: "activity"
+  color: "gray-dark"
+inputs:
+  baseBranch:
+    description: The branch name that pull_request will be merged into
+    required: true
+  currentBranch:
+    description: The branch name that pull_request depends on
+    required: true  
+runs:
+  using: "node16"
+  main: "dist/index.js"
