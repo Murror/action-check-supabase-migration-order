@@ -12,5 +12,5 @@ inputs:
     description: The branch name that pull_request depends on
     required: true  
 runs:
-  using: "node16"
+  using: "node20"
   main: "dist/index.js"
